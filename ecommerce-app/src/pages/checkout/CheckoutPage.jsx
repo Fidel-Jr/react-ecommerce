@@ -1,6 +1,5 @@
 import CheckoutHeader from './CheckoutHeader'
 import './CheckoutPage.css'
-import './checkout-header.css'
 
 function CheckoutPage() {
     return (
