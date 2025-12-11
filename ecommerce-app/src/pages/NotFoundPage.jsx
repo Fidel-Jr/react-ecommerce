@@ -1,10 +1,12 @@
 import Header from "../components/Header";
 
-function NotFoundPage() {
+function NotFoundPage({cart}) {
     return (
         <>
-            <h2 className="mt-5 text-light">Page Not Found</h2>
-
+            <Header cart={cart} />
+            <div style={{marginTop: '100px'}}>
+                <h2 className="text-light">Page Not Found</h2>
+            </div>
         </>
     )
 }

@@ -9,9 +9,9 @@ function TrackingPage({ cart }) {
             <title>Order Tracking</title>
             <link rel="icon" type="image/svg+xml" href="tracking-favicon.png" />
             <Header cart={cart} />
-            <div class="tracking-page">
+            <div className="tracking-page">
                 <OrderTracking />
-            </div>
+            </div>  
         </>
     )
 }
