@@ -59,7 +59,7 @@ function OrderTracking() {
                 Quantity: {orderProduct.quantity} 
             </div>
 
-            <img className="product-image" src="images/products/athletic-cotton-socks-6-pairs.jpg" />
+            <img className="product-image" src={orderProduct.product.image} />
 
             <div className="progress-labels-container">
                 
